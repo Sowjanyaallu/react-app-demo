@@ -1,11 +1,98 @@
 .App {
   text-align: center;
+  background-size: cover;
+  height: 52vh;
+  width: 99%;
+  background-image: url('https://img.freepik.com/premium-vector/autumn-mountains-landscape-with-tree-silhouettes-river-sunset_148087-293.jpg?w=2000');
+  align-items: center;
+}
+body{
+  height: 90vh;
+}
+.all-btn{
+  width: 5vw;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #ebb063;
+  border: none;
+}
+
+.input-feild{
+  padding-top: 14%;
+  padding-bottom: 1%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.todo-main{
+width: 35%;
+ height: 54%;
+ overflow: scroll;
+ text-align: center;
+ background-color: #fff;
+ position: absolute;
+ left: 33%;
+ box-shadow: 5px 5px 5px 5px;
+ border-radius: 10px;
+ 
+
+  
+}
+.todo-app{
+ width: 30vw;  
+ border-bottom:1px solid gray ;
+
+}
+.checkbox-container {
+  flex: 0 0 auto; /* Don't allow the checkbox to grow */
+  margin-right: 10px; /* Add spacing between the checkbox and label */
+}
+
+.label-container {
+  flex-grow: 1; /* Allow the label to grow and take up available space */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.todo-app{
+  width: 100%;
+  padding: 1%;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-box{
+  width: 15%;
+  padding: 0.5%;
+  margin: 1%;
+  border-radius: 10px;
+}
+.todo-button{
+  width: 8%;
+  padding: 8px;
+  margin: 1%;
+  border-radius: 10px;
+  background-color: rgb(253, 102, 47);
+  border: none;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.green-border {
+  border: 2px solid green;
+}
+
+.red-border {
+  border: 2px solid red;
+}*/
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
